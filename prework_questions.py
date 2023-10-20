@@ -39,7 +39,7 @@ print(highest_number)
 def is_leap_year():
     """Return if a year is a leap year"""
     #Create an input prompt to obtain a year
-    year = input(f"Please enter a year: ")
+    year = input(f"Please enter a year:")
     #Change year from class str to class int
     year = int(year)
     #Determine if a year is divisible by 4 but not divisible by 100
